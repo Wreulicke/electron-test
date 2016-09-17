@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "electron example",
   "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.4.0"
+  },
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wreulicke/electron-test.git"
+  },
+  "author": "Wreulicke",
   "license": "MIT",
-  "devDependencies": {
-    "electron": "^1.4.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Wreulicke/electron-test/issues"
+  },
+  "homepage": "https://github.com/Wreulicke/electron-test#readme"
 }
